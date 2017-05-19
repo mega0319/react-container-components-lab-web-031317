@@ -1,4 +1,5 @@
 import React from 'react';
+import "isomorphic-fetch"
 import { shallow, mount } from 'enzyme';
 
 const Noop = (props) => { return <p>Noop</p> };
